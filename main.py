@@ -7,10 +7,13 @@ def regex():
     x = re.search("The", txt)
     print(x)
 
-def regex2()
+def regex2():
+    cwd = os.getcwd()
+    print("Current working directory", cwd)
 
 if __name__ == '__main__':
     regex()
+    regex2()
 
 
 
